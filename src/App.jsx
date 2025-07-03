@@ -1,16 +1,16 @@
-import React from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Home from './screens/Home'
-import BmiCalculator from './screens/BmiCalculator'
-import SumNumber from './assets/SumNumber'
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./screens/Home";
+import BmiCalculator from "./screens/BmiCalculator";
+import SumNumber from "./screens/SumNumber";
 function App() {
   return (
     <>
       <BrowserRouter>
        <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/bmi-calculator" element={<BmiCalculator />} />
-          <Route path="/sum-calculator" element={<BmiCalculator />} />
+          <Route path="/calculatorbmi-" element={<BmiCalculator />} />
+          <Route path="/sum-number" element={<SumNumber />} />
        </Routes>
       </BrowserRouter>
     </>
